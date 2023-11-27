@@ -1,0 +1,59 @@
+body{
+    background-image: url(./Img/BG.jpg);
+    background-size: cover;
+    background-position: bottom;
+
+}
+.prayer-time {
+    background: #fff;
+    padding: 20px 30px;
+    max-width: 1000px;
+    margin: 200px auto;
+    border-radius: 20px;
+}
+.prayer-timeDiv {
+    background: #C40057;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+}
+.currentDate {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0px;
+}
+
+.date {
+    color: #787473;
+    font-size: 20px;
+}
+
+.currentTime {
+    color: #787473;
+    font-size: 20px;
+}
+
+.singlePrayer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.showTtem {
+    color: #787473;
+    font-size: 20px;
+}
+
+.jamat {
+    color: #787473;
+    font-size: 20px;
+}
+
+.showPrayer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
